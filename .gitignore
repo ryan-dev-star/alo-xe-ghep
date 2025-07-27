@@ -1,0 +1,27 @@
+# dependencies
+node_modules
+bun.lock
+.env
+.env.*.local
+
+# build output
+dist
+.build
+.next
+.out
+.cache
+*.log
+
+# system files
+.DS_Store
+
+# editor
+.vscode
+.idea
+
+# Netlify / Vercel
+.netlify
+.vercel
+
+# macOS
+*.DS_Store
